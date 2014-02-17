@@ -1,4 +1,28 @@
 body{
-	background: #ADD8E6;
-	padding: 20;
+	padding: 20px;
+	font-family: Serif;
+}
+.white{
+	color: white;
+}
+.icon{
+	float: left;
+	width: 200px;
+	padding: 10px;
+}
+.introduction{
+	color: white;
+	float:left;
+	padding: 10px;
+}
+.div0{
+	background: blue;
+}
+.div1{
+	height: 200px;
+	width: 100%;
+	background: #ADD806;
+}
+.td1{
+	width: 220px;
 }
