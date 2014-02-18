@@ -1,5 +1,5 @@
 body{
-	padding: 20px;
+	padding: 40px;
 	font-family: Serif;
 }
 .white{
@@ -13,10 +13,10 @@ body{
 .introduction{
 	color: white;
 	float:left;
-	padding: 10px;
 }
 .div0{
 	background: blue;
+	height: 150px;
 }
 .div1{
 	height: 200px;
@@ -25,4 +25,10 @@ body{
 }
 .td1{
 	width: 220px;
+}
+#map-canvas{
+	height: 300px;
+	width: 50%;
+	float: right;
+	border:#00ff00 solid thick;
 }
