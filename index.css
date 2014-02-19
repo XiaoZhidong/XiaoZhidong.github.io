@@ -52,12 +52,12 @@ div#wrapper{
 	margin: 0px;
 	padding-top: 0px;
 	height: 300px;
-	width: auto;
+	width: 50%;
 	float: left;
 }
 div.div3 ul{
 	list-style-type: none;
-	width: 100px;
+	width: 20%;
 	height: 100%;
 	margin: 0px;
 	padding: 0;
@@ -70,7 +70,7 @@ li#li2, li#li1, li#li3{
 	background: #CCFF33;
 	margin: 0px;
 	padding: 0px;
-	border-width: 1px 0px 1px 0px;
+	border-width: thin 0px thin 0px;
 	border-color: #CCFF99;
 	border-style: solid;
 	float: center;
