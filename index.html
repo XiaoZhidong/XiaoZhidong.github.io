@@ -8,12 +8,15 @@
 	<link rel="stylesheet" type="text/css" href="index.css"/>
 	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 	<script src="js\map.js"></script>
+	<script src="js\show.js"></script>
 </HEAD>
 <BODY>
+<div id="wrapper">
 	<div class="div0">
+		<p class="white">
 		<script charset="Shift_JIS" src="http://chabudai.sakura.ne.jp/blogparts/honehoneclock/honehone_clock_tr.js">
-		</script>
-		<p class="white">Welcome to my homepage</p>
+		</script></p>
+		<h2 class="white">Welcome to my homepage</h2>
 	</div>
 	<table class="div1">
 		<tr valign="top">
@@ -29,9 +32,25 @@
 					<p>Mail:448408032@qq.com</p>
 				</div>
 			</td>
-		<tr>
+		</tr>
 	</table>
-	<div id="map-canvas">
+	<div class="div2">
+		<div class="div3">
+			<ul>
+				<li id="li1" onmouseover="this.style.background='#99CC00'" onmouseout="this.style.background='#CCFF33'" onclick="show(this)">
+					<h2>相  册</h2>
+				</li>
+				<li id="li2" onmouseover="this.style.background='#99CC00'" onmouseout="this.style.background='#CCFF33'" onclick="show(this)">
+					<h2>书  籍</h2>
+				</li>
+				<li id="li3" onmouseover="this.style.background='#99CC00'" onmouseout="this.style.background='#CCFF33'" onclick="show(this)">
+					<h2>旅  游</h2>
+				</li>
+			</ul>
+		</div>
+		<div id="map-canvas">
+		</div>
 	</div>
+</div>
 </BODY>
 </HTML>
